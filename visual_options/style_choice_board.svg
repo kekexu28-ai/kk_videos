@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#eef6f3"/>
+    </linearGradient>
+    <linearGradient id="panelA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f9fcff"/>
+      <stop offset="1" stop-color="#e9f1f8"/>
+    </linearGradient>
+    <linearGradient id="panelB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef8ff"/>
+      <stop offset="1" stop-color="#f5fff4"/>
+    </linearGradient>
+    <linearGradient id="panelC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8ef"/>
+      <stop offset="1" stop-color="#eef8f1"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#1d3557" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .title { font: 700 46px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #1e2b3a; }
+      .subtitle { font: 400 24px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #5c6a79; }
+      .label { font: 700 31px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #1d2b3a; }
+      .copy { font: 400 21px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #516171; }
+      .small { font: 400 17px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #697887; }
+      .caption { font: 700 18px "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif; fill: #355070; letter-spacing: 1px; }
+      .wave { fill: none; stroke-linecap: round; stroke-width: 3; }
+      .thin { fill: none; stroke-linecap: round; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="80" y="80" class="title">科普微视频动漫视觉方向选择</text>
+  <text x="80" y="124" class="subtitle">全片不使用真实人物形象；设备、脑电波形、tACS 流程也统一做成示意动画。</text>
+
+  <g transform="translate(72,170)" filter="url(#shadow)">
+    <rect x="0" y="0" width="455" height="610" rx="16" fill="#fff"/>
+    <rect x="0" y="0" width="455" height="350" rx="16" fill="url(#panelA)"/>
+    <path d="M0 334 H455 V350 H0 Z" fill="#dce7f2"/>
+    <text x="30" y="405" class="label">A. 临床可信型</text>
+    <text x="30" y="456" class="copy">线条克制，场景接近医院实验室。</text>
+    <text x="30" y="492" class="copy">适合突出“真实科研”和规范流程。</text>
+    <text x="30" y="545" class="small">关键词：稳重、清晰、可信、比赛友好</text>
+
+    <rect x="42" y="86" width="178" height="130" rx="12" fill="#ffffff" stroke="#25344a" stroke-width="5"/>
+    <rect x="64" y="235" width="135" height="18" rx="6" fill="#25344a"/>
+    <path class="wave" stroke="#5b7cfa" d="M67 118 C80 108 91 129 104 118 S130 108 143 118 S169 129 182 118"/>
+    <path class="wave" stroke="#5b7cfa" d="M67 150 C80 140 91 161 104 150 S130 140 143 150 S169 161 182 150"/>
+    <path class="wave" stroke="#5b7cfa" d="M67 182 C80 172 91 193 104 182 S130 172 143 182 S169 193 182 182"/>
+    <line x1="52" y1="72" x2="404" y2="72" stroke="#d4e0eb" stroke-width="2"/>
+    <line x1="52" y1="260" x2="404" y2="260" stroke="#d4e0eb" stroke-width="2"/>
+
+    <g transform="translate(272,150)">
+      <ellipse cx="42" cy="152" rx="70" ry="14" fill="#c9d5df"/>
+      <rect x="12" y="54" width="62" height="104" rx="25" fill="#f7c5d4" stroke="#e597ae" stroke-width="4"/>
+      <circle cx="43" cy="28" r="32" fill="#ffd3ba"/>
+      <path d="M16 36 C16 4 70 4 70 36 L70 50 L16 50 Z" fill="#162033"/>
+      <circle cx="30" cy="31" r="5" fill="#f5cb4d"/>
+      <circle cx="46" cy="42" r="5" fill="#f5cb4d"/>
+      <circle cx="60" cy="28" r="5" fill="#f5cb4d"/>
+      <path class="thin" stroke="#2e5d78" d="M25 48 C10 76 10 101 18 132"/>
+      <path class="thin" stroke="#2e5d78" d="M60 49 C82 80 89 111 80 142"/>
+    </g>
+    <g transform="translate(352,160)">
+      <rect x="0" y="44" width="56" height="104" rx="17" fill="#fff" stroke="#c4d2df" stroke-width="4"/>
+      <circle cx="28" cy="23" r="28" fill="#ffd3ba"/>
+      <path d="M13 112 L43 112" stroke="#8aa0b4" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(572,170)" filter="url(#shadow)">
+    <rect x="0" y="0" width="455" height="610" rx="16" fill="#fff"/>
+    <rect x="0" y="0" width="455" height="350" rx="16" fill="url(#panelB)"/>
+    <text x="30" y="405" class="label">B. 科技动画型</text>
+    <text x="30" y="456" class="copy">脑区、电流、数据变化更突出。</text>
+    <text x="30" y="492" class="copy">更适合解释“先采集-刺激-再对比”。</text>
+    <text x="30" y="545" class="small">关键词：数据感、节奏感、科普解释强</text>
+
+    <g transform="translate(52,54)">
+      <path d="M80 74 C42 70 36 32 70 22 C91 -2 134 10 136 44 C171 45 181 92 148 109 C119 132 82 117 80 74 Z" fill="#fff2ed" stroke="#ff8b70" stroke-width="5"/>
+      <path class="thin" stroke="#ff8b70" d="M71 42 C92 47 102 63 92 87"/>
+      <path class="thin" stroke="#ff8b70" d="M108 27 C101 48 116 62 139 64"/>
+      <path class="thin" stroke="#ff8b70" d="M70 94 C94 95 116 102 139 91"/>
+      <circle cx="106" cy="70" r="78" fill="none" stroke="#65c9ff" stroke-width="3" opacity=".55"/>
+      <circle cx="106" cy="70" r="108" fill="none" stroke="#65c9ff" stroke-width="3" opacity=".32"/>
+      <path d="M157 102 C207 112 236 140 271 178" stroke="#57bfff" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M170 70 C224 60 254 77 304 98" stroke="#58c985" stroke-width="5" fill="none" stroke-linecap="round"/>
+    </g>
+
+    <rect x="260" y="78" width="132" height="106" rx="12" fill="#ffffff" stroke="#0e7484" stroke-width="5"/>
+    <path class="wave" stroke="#00a0a0" d="M282 111 C292 99 304 123 314 111 S336 99 346 111 S368 123 378 111"/>
+    <path class="wave" stroke="#26b978" d="M282 145 C292 133 304 157 314 145 S336 133 346 145 S368 157 378 145"/>
+    <path class="wave" stroke="#f09a3e" d="M282 175 C292 163 304 187 314 175 S336 163 346 175 S368 187 378 175"/>
+
+    <g transform="translate(172,204)">
+      <ellipse cx="46" cy="87" rx="78" ry="13" fill="#c7dadd"/>
+      <rect x="11" y="21" width="70" height="80" rx="24" fill="#cbe8ff" stroke="#73b7f4" stroke-width="4"/>
+      <circle cx="46" cy="0" r="31" fill="#ffd0b6"/>
+      <path d="M18 8 C18 -25 74 -25 74 8 L74 25 L18 25 Z" fill="#162033"/>
+      <circle cx="32" cy="4" r="5" fill="#f5cb4d"/>
+      <circle cx="49" cy="14" r="5" fill="#f5cb4d"/>
+      <circle cx="64" cy="1" r="5" fill="#f5cb4d"/>
+    </g>
+    <text x="54" y="304" class="caption">运动想象脑电</text>
+    <text x="255" y="304" class="caption">tACS 后对比</text>
+  </g>
+
+  <g transform="translate(1072,170)" filter="url(#shadow)">
+    <rect x="0" y="0" width="455" height="610" rx="16" fill="#fff"/>
+    <rect x="0" y="0" width="455" height="350" rx="16" fill="url(#panelC)"/>
+    <text x="30" y="405" class="label">C. 温暖叙事型</text>
+    <text x="30" y="456" class="copy">更强调患者体验和康复希望。</text>
+    <text x="30" y="492" class="copy">科技元素更柔和，结尾更有感染力。</text>
+    <text x="30" y="545" class="small">关键词：温暖、陪伴、希望、情绪表达</text>
+
+    <rect x="42" y="252" width="360" height="45" rx="12" fill="#dcead8"/>
+    <circle cx="370" cy="78" r="28" fill="#ffd86f" opacity=".9"/>
+    <rect x="294" y="84" width="100" height="82" rx="12" fill="#ffffff" stroke="#557b68" stroke-width="5"/>
+    <path class="wave" stroke="#609a79" d="M313 116 C323 105 334 127 344 116 S365 105 375 116"/>
+    <path class="wave" stroke="#e0a04b" d="M313 147 C323 136 334 158 344 147 S365 136 375 147"/>
+
+    <g transform="translate(80,160)">
+      <ellipse cx="40" cy="124" rx="72" ry="13" fill="#d3d5cb"/>
+      <rect x="7" y="36" width="66" height="98" rx="24" fill="#f7d5bd" stroke="#e9ad85" stroke-width="4"/>
+      <circle cx="40" cy="9" r="31" fill="#ffd0b2"/>
+      <path d="M12 17 C12 -15 68 -15 68 17 L68 31 L12 31 Z" fill="#162033"/>
+      <circle cx="25" cy="13" r="5" fill="#f5cb4d"/>
+      <circle cx="42" cy="23" r="5" fill="#f5cb4d"/>
+      <circle cx="57" cy="10" r="5" fill="#f5cb4d"/>
+      <path d="M-8 76 C-44 92 -48 118 -22 135" stroke="#e9ad85" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(198,156)">
+      <ellipse cx="36" cy="128" rx="66" ry="13" fill="#d3d5cb"/>
+      <rect x="7" y="41" width="58" height="102" rx="18" fill="#ffffff" stroke="#b8d8cb" stroke-width="4"/>
+      <circle cx="36" cy="16" r="30" fill="#ffd0b2"/>
+      <path d="M10 87 C-18 92 -34 112 -42 132" stroke="#9cc8b8" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <path d="M63 87 C86 91 105 105 112 124" stroke="#9cc8b8" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <path d="M144 236 C166 222 182 222 205 236" stroke="#f2b46b" stroke-width="5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <text x="80" y="845" class="subtitle">请回复 A、B 或 C。若想混合，也可以回复例如“B 为主，C 的结尾氛围”。</text>
+</svg>

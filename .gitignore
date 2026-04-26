@@ -1,0 +1,16 @@
+.superpowers/
+node_modules/
+dist/
+out/
+build/
+.env
+*.log
+
+# Local source materials may contain real patient/person imagery.
+# Keep them local unless explicitly cleared for publishing.
+*.jpg
+*.jpeg
+*.mp4
+*.mov
+*.avi
+*.docx
