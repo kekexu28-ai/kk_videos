@@ -1,0 +1,24 @@
+{
+  "name": "kk-stroke-eeg-tacs-video",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts StrokeRehabExplainer out/stroke-eeg-tacs-explainer.mp4",
+    "still": "remotion still src/index.ts StrokeRehabExplainer out/stills/frame-900.png --frame=900",
+    "typecheck": "tsc --noEmit",
+    "build": "remotion bundle src/index.ts"
+  },
+  "dependencies": {
+    "@remotion/captions": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@remotion/cli": "^4.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.4.0"
+  }
+}
